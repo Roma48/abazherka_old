@@ -1,0 +1,150 @@
+/*
+#------------------------------------------------------------------------
+# Shop and Buy - July Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2013 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+.itemsContainer .itemsContainerWrap, 
+.itemContainer .itemsContainerWrap {
+	margin: 0!important;	
+}
+#gkContentWrap > section:first-child {
+	padding-top: 20px;
+}
+#k2Container article header h2 {
+	font-size: 32px;
+	line-height: 32px;
+}
+.demo-typo-col2,
+.demo-typo-col3,
+.demo-typo-col4 {
+	clear: both;
+	float: none;
+	width: 100%;
+}
+
+body .gkCols6 .box {
+	width: 50%!important;
+}
+body .gkCols6 .box:nth-child(2n+1) {
+	clear: both;
+}
+
+#gkBottom1,
+#gkBottom2 {
+	padding: 32px 0 20px 0;
+}
+
+#gkFooterText {
+	padding: 10px 40px;
+}
+
+/* Image Show and NSP Portal Modes */
+.gkIsWrapper-gk_shop_and_buy .figcaption h3 {
+	font-size: 24px;
+	margin: 0 0 4px 0;
+}
+
+.gkNspPM-CenteredTitleOverlay p {
+	font-size: 10px;
+	line-height: 1.4;
+}
+
+/* Top */
+#gkHeaderNav {
+	/*padding-top: 20px;*/
+}
+
+#gkMainMenu {
+	max-width: 67%;
+	margin: 15px 0;
+}
+
+#gkSearch {
+	/*margin-left: 10px;*/
+	/*max-width: 130px;*/
+}
+
+.gkMenu > ul > li > a {
+	padding: 0 4px 0 12px;
+}
+
+.gkMenu > ul > li,
+.gkMenu > ul > li > a {
+	height: 40px;
+	line-height: 41px;
+}
+
+.gkMenu > ul > li:before {
+	line-height: 40px;
+}
+
+#gkMenuOverlayWrap {
+	margin:  -20px 0 0 -260px!important;
+	max-width: 520px!important;
+}
+
+#gkMenuOverlayWrap.open {
+	margin-top: 0;
+}
+
+#gkMenuOverlayContent .gkcol li {
+	font-size: 20px;
+}
+
+#gkMenuOverlayContent .gkcol li,
+#gkMenuOverlayContent .gkcol li a {
+	line-height: 58px;
+}
+
+#gkPopupLogin, 
+#gkPopupCart {
+	margin-left: -240px;
+	width: 480px;	
+}
+
+.vmGkCartProducts h3 {
+	font-size: 18px;
+}
+
+/* Bottom */
+
+/* Price Table */
+.gkPriceTable dl {
+	padding: 20px 10px;
+}
+.gkPriceTable dt {
+	font-size: 22px;
+}
+.gkPriceTable dl.gkPremium dd.gkPrice {
+	font-size: 40px;
+}
+.gkPriceTable dl dd.gkPrice {
+	font-size: 32px;
+}
+.gkPriceTable dl.gkPremium dd {
+	padding: 5px 0;
+}
+.gkPriceTable dd a {
+	margin: 10px 0;
+	padding: 0 20px;
+}
+.gkPriceTable dl.gkPremium {
+	margin-top: -2px;
+}
+
+/* VM */
+.productdetails-view h1 {
+	font-size: 32px;
+}
+.contact_us_page .contact_us_left {
+    display: none;
+}
+.contact_us_page .contact_us_right {
+    float: none;
+    width: 100%;
+}

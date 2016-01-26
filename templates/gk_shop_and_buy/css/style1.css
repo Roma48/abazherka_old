@@ -1,0 +1,346 @@
+/*
+#------------------------------------------------------------------------
+# Shop and Buy - July Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2013 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+ 
+/* Style 1 */
+
+/* template.css */
+#gkLogo.cssLogo {
+	background: transparent url('../images/style1/logo.png') no-repeat 0 0;
+}
+
+a:hover,
+a:active,
+a:focus,
+#gkMainbody a,
+#gkMainbody h1 a:active,
+#gkMainbody h1 a:focus,
+#gkMainbody h1 a:hover,
+#gkMainbody h2 a:active,
+#gkMainbody h2 a:focus,
+#gkMainbody h2 a:hover,
+#k2Container article header h2 a:active,
+#k2Container article header h2 a:focus,
+#k2Container article header h2 a:hover,
+#gkSidebar .box a:hover { 
+	color: #ed6363; 
+}
+#gkBottom1 .box li a:active,
+#gkBottom1 .box li a:focus,
+#gkBottom1 .box li a:hover,
+#gkBottom2 .box li a:active,
+#gkBottom2 .box li a:focus,
+#gkBottom2 .box li a:hover { 
+	color: #ed6363; 
+}
+#gkBreadcrumb .breadcrumbs > ul > li a:hover { 
+	color: #ED6363; 
+}
+#gkFooter a:active,
+#gkFooter a:focus,
+#gkFooter a:hover { 
+	color: #ed6363; 
+}
+.box .header strong { 
+	color: #ed6363; 
+}
+.box.dark a:active,
+.box.dark a:focus,
+.box.dark a:hover { 
+	color: #ed6363!important; 
+}
+.box.border3 { 
+	border: 5px solid #ed6363; 
+}
+.gkPopupWrap .gk-icon-cross {
+	color: #ed6363;
+}
+.gkPopupWrap h3 a:hover { 
+	color: #ed6363; 
+}
+.gkPopupWrap .button { 
+	background: #ed6363; 
+}
+#btnCart:active,
+#btnCart:focus,
+#btnCart:hover {
+	color: #ed6363; 
+}
+
+/* joomla.css */
+button:hover,
+.button:hover,
+input.button:hover,
+span.button:hover,
+button.button:hover,
+div.button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+.pagenav-prev a:hover,
+.pagenav-next a:hover,
+.readon:hover,
+#gkMainbody .itemReadMore:active,
+#gkMainbody .itemReadMore:focus,
+#gkMainbody .itemReadMore:hover,
+#gkMainbody .readmore > a:active,
+#gkMainbody .readmore > a:focus,
+#gkMainbody .readmore > a:hover,
+.readon:active,
+.readon:focus,
+.readon:hover,
+.gkShowCart a:hover {
+	background: #3c5166;
+}
+th a:active,
+th a:focus,
+th a:hover,
+article header h1 a:hover,
+article header h2 a:hover { 
+	color: #ed6363; 
+}
+#system-message dd.error { 
+	background: #ed6363; 
+}
+.autocompleter-queried { 
+	color: #ed6363!important 
+}
+.pagination ul li a { 
+	color: #ed6363!important 
+}
+.pane-sliders .panel h3 a:hover, 
+.pane-sliders .panel h3.pane-toggler-down a { 
+	color: #ED6363 !important;
+}
+.tip-title {
+	background: #ed6363;
+}
+article header li a:hover { 
+	color: #ed6363;
+}
+div.bannerfooter {
+	color: #ed6363;
+}
+
+/* gk_stuff.css */
+.nspPagination li:hover,
+.nspPagination li.active { 
+	background-color: #ed6363; 
+}
+.nspNext:hover:after,
+.nspPrev:hover:after { 
+	color: #ed6363; 
+}
+.dark .nspArt .readon {
+	color: #282c2f!important;
+}
+.dark .nspArt .readon:active,
+.dark .nspArt .readon:focus,
+.dark .nspArt .readon:hover {
+	background: #ed6363;
+}
+.gkTabsWrap ol li.active,
+.gkTabsWrap ol li.active:hover {
+	border-bottom: 1px solid #ed6363!important;
+	color: #ed6363;
+}
+.gkTabsWrap ol li:hover { 
+	color: #ed6363; 
+}
+.gkIsWrapper-gk_shop_and_buy ol li:hover,
+.gkIsWrapper-gk_shop_and_buy ol li.active {
+	background: #ed6363;
+}
+.gkIsBtnNext:hover:before,
+.gkIsBtnPrev:hover:before {
+	color: #ed6363;
+}
+.gkNspPM-ProductGallery2 .gkImage:hover {
+	border: 5px solid #3c5166;
+}
+.gkNspPM-ProductGallery2 .gkImage h4 a:active,
+.gkNspPM-ProductGallery2 .gkImage h4 a:focus,
+.gkNspPM-ProductGallery2 .gkImage h4 a:hover {
+	color: #ed6363!important;
+}
+.gkNspPM-ProductGallery2 .gkImage:hover .PricebasePriceWithTax {
+	color: #ed6363;
+}
+.gkNspPM-ProductGallery2 input.addtocart-button:active,
+.gkNspPM-ProductGallery2 input.addtocart-button:focus,
+.gkNspPM-ProductGallery2 input.addtocart-button:hover,
+.gkNspPM-ProductGallery2 .gkImage.hover input.addtocart-button,
+.gkNspPM-ProductGallery2 .gkImage:hover input.addtocart-button {
+	background: #3c5166;
+}
+.gkPriceTable dd a:hover {
+	background: #ED6363;
+}
+.gkPriceTable .gkPremium dd a { 
+	background: #ED6363; 
+}
+.gkPriceTable dl.gkPremium {
+	border: 3px solid #ED6363;
+}
+.gkPriceTable dl.gkPremium dt,
+.gkPriceTable dl.gkPremium dd.gkPrice { 
+	color: #ED6363; 
+}
+
+/* menu.css */
+.gkMenu > ul li div.childcontent li:hover > a,
+.gkMenu > ul li div.childcontent li:hover > a small {
+	color: #ed6363;
+}
+#gkMenuOverlayClose {
+	color: #ed6363;
+}
+#gkMenuOverlayContent .gkcol li a:active,
+#gkMenuOverlayContent .gkcol li a:focus,
+#gkMenuOverlayContent .gkcol li a:hover {
+	color: #ed6363;
+}
+
+/* k2.css */
+.activeCategory a { 
+	color: #ed6363; 
+}
+h1 > sup,
+h2 > sup {
+	background: #ed6363;
+}
+span#formLog {
+	background: #ed6363;
+}
+.itemAttachmentsBlock {
+	background: #ed6363;
+}
+.k2CalendarBlock table.calendar tr td.calendarDateLinked a:hover {
+	background: #ed6363;
+}
+.k2CalendarBlock table.calendar tr td.calendarToday {
+	background: #ed6363;
+}
+table.calendar tr td.calendarTodayLinked a {
+	color: #ed6363;
+}
+.k2CalendarBlock table.calendar tr td.calendarTodayLinked a:hover {
+	background: #ed6363;
+}
+.calendarNavLink { 
+	color: #ed6363; 
+}
+
+/* vm.css */
+.ask-a-question a:hover { 
+	color: #ED6363 !important; 
+}
+.addtocart-button { 
+	background: #ED6363 !important;
+}
+.addtocart-button:hover {
+	background: #3C5166 !important;
+} 
+.category-view .category .category-overlay > span > span,
+.browse-view .product .product-overlay > span > span,
+.featured-view .product .product-overlay > span > span,
+.latest-view .product .product-overlay > span > span,
+.topten-view .product .product-overlay > span > span,
+.recent-view .product .product-overlay > span > span,
+.productDetails .main-image .product-overlay > span > span {
+	background: #ed6363;
+}
+.catProductPrice {
+	color: #ed6363;
+}
+.category-view .row .category .spacer h2 a:hover,
+.product-related-products > div a:hover,
+.product-related-categories > div a:hover,
+table.cart-summary a:hover { 
+	color: #ed6363; 
+}
+.category-view .row .category .spacer:hover,
+.featured-view .spacer:hover,
+.latest-view .spacer:hover,
+.topten-view .spacer:hover,
+.related-products-view .spacer:hover,
+.browse-view .row .product .spacer:hover,
+.manufacturer-view-default .row .manufacturer .spacer:hover,
+.recent-view .spacer:hover { 
+	border: 5px solid #3c5166; 
+}
+#facebox .popup > div > div > a {	
+	background: #ed6363;
+}
+#ui-tabs h4 {
+	color: #ed6363;
+}
+#ui-tabs ul#tabs li.current {
+	color: #ed6363;
+}
+#ui-tabs ul#tabs li:hover { 
+	color: #ed6363; 
+}
+.general-bg,
+input.vm-default,
+a.product-details,
+a.details,
+div.details {
+	color: #ed6363;
+}
+.vmGkCartProducts .gkPrice { 
+	color: #ED6363; 
+}
+.gkTotal {
+	color: #ED6363;
+}
+.orderlistcontainer a:hover,
+.featured-view .spacer h3 a:hover,
+.latest-view .spacer h3 a:hover,
+.topten-view .spacer h3 a:hover,
+.related-products-view .spacer h3 a:hover,
+.browse-view .row .product .spacer h2 a:hover,
+h3.catProductTitle a:hover { 
+	color: #ed6363!important;
+}
+.productdetails-view .product-related-products a:hover,
+.productdetails-view .product-related-categories a:hover { 
+	color: #ed6363 !important;
+}
+.terms-of-service h5 a,
+.terms-of-service h5 a:visited {
+	color: #ed6363;
+}
+.vm-button-correct:hover,
+.catProductDetails:hover {
+	background: #ed6363;
+}
+.vmCartModule dl dt a:hover { 
+	color: #ed6363; 
+}
+.vmCartModule dd strong {
+	color: #ed6363;
+}
+input.addtoCart:hover { 
+	background: #ed6363;
+}
+span.PricesalesPrice {
+	color: #ed6363;
+}
+#com-form-login a:hover, 
+.billto-shipto a:hover { 
+	color: #ED6363 !important;
+}
+#facebox .popup > div > div > a:hover,
+.productDetails .main-image .product-overlay > span > span, 
+#facebox .popup > div > div > a.continue:hover { 
+	background: #3C5166!important; 
+}
+#facebox .popup > div > div > a:hover {
+	background: #282c2f!important;
+}

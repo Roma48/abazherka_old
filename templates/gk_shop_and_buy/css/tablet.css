@@ -1,0 +1,256 @@
+/*
+#------------------------------------------------------------------------
+# Shop and Buy - July Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2013 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+/* Containers */
+#gkContent, 
+#gkSidebar,
+#gkContentWrap {
+	width: 100%!important;
+}
+#gkContentWrap {
+	border: none!important;
+	margin-top: 20px;
+}
+#gkSidebar {
+	padding: 14px 0 0 0!important;
+}
+#gkSidebar .box {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#gkSidebar .box {
+	border-top: none!important;
+	float: left;
+	margin-bottom: 30px!important;
+	padding: 20px;
+	width: 50%;
+}
+#gkSidebar .box:first-child {
+	padding-top: 20px;
+}
+#gkSidebar.gkOnlyOne .box,
+#gkInset.gkOnlyOne .box {
+	width: 100%!important;
+}
+
+#gkSidebar .box:nth-child(2n+1) {
+	clear: both!important;
+}
+
+/* Limitation suffixes */
+.box.onlydesktop {
+	display: none!important;
+}
+
+.box.notablet {
+	display: none!important;
+}
+.box.nomobile {
+	display: block!important;
+}
+.box.onlytablet {
+	display: block!important;
+}
+.box.onlymobile {
+	display: none!important;
+}
+.box.notablet.nomobile {
+	display: none!important;
+}
+
+/* Fix for the contact page */
+.contact .contact-image {
+	float: left !important;
+}
+.contact .contact-address {
+	clear: both !important;
+	padding-top: 20px !important;
+}
+.contact .contact-form input[type="text"],
+.contact .contact-form input[type="email"],
+.contact .contact-form textarea {
+	width: 100% !important;
+}
+
+/* K2 edit popup */
+#sbox-window,
+#sbox-window iframe {
+	width: 720px!important;
+	max-width: 720px!important;
+	left: 10px!important;
+}
+
+/* menu */
+/*.gkMenuClassic #gkExtraMenu {*/
+	/*display: none!important;*/
+/*}*/
+/*#gkMainMenu.gkMenuClassic {*/
+	/*display: none;*/
+/*}*/
+#gkMobileMenu select {
+	width: 44px;
+	height: 44px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#gkMobileMenu {
+	clear: both;
+	/*display: block!important;*/
+	float: left;
+	font-size: 32px;
+	height: 44px;
+	line-height: 44px;
+	margin: 10px 5px 0 5px;
+	position: relative;
+	width: 44px;
+}
+#gkMobileMenu + #gkSearch {
+	margin-top: 18px;
+}
+
+/* top/bottom modules */
+
+/* 4-column layout */
+body .gkCols4 .box {
+	margin-bottom: 30px!important;
+}
+body .gkCols4 .box.gkmod-1 {
+	width: 100%;	
+}
+body .gkCols4 .box.gkmod-2 {
+	width: 50%;
+}
+body .gkCols4 .box.gkmod-3 {
+	width: 33.3%;
+}
+body .gkCols4 .box.gkmod-4,
+body .gkCols4 .box.gkmod-more {
+	width: 50%;
+}
+body .gkCols4 .box:nth-child(2n+1) {
+	clear: both;
+}
+body .gkCols4 .box.gkmod-more.gkmod-last-1:last-child {
+	width: 100%!important;
+}
+body .gkCols4 .box.gkmod-more.gkmod-last-2:last-child,
+body .gkCols4 .box.gkmod-more.gkmod-last-2:nth-last-child(2) {
+	width: 50%!important;
+}
+body .gkCols4 .box.gkmod-more.gkmod-last-3:last-child,
+body .gkCols4 .box.gkmod-more.gkmod-last-3:nth-last-child(2),
+body .gkCols4 .box.gkmod-more.gkmod-last-3:nth-last-child(3) {
+	width: 50%!important;
+}
+
+body .gkCols4 .box.gkmod-2:nth-child(2n+1),
+body .gkCols4 .box.gkmod-3:nth-child(3n+1),
+body .gkCols4 .box.gkmod-4:nth-child(2n+1),
+body .gkCols4 .box.gkmod-more:nth-child(2n+1), {
+	clear: both;
+}
+
+/* 6-column layout */
+body .gkCols6 .box {
+	margin-bottom: 30px!important;
+}
+body .gkCols6 .box.gkmod-1 {
+	width: 100%;	
+}
+body .gkCols6 .box.gkmod-2 {
+	width: 50%;
+}
+body .gkCols6 .box.gkmod-3 {
+	width: 33.3%;
+}
+body .gkCols6 .box.gkmod-4,
+body .gkCols6 .box.gkmod-more {
+	width: 50%;
+}
+body .gkCols6 .box.gkmod-5,
+body .gkCols6 .box.gkmod-more {
+	width: 33.3%;
+}
+body .gkCols6 .box.gkmod-6,
+body .gkCols6 .box.gkmod-more {
+	width: 33.3%;
+}
+body .gkCols6 .box.gkmod-more.gkmod-last-1:last-child {
+	width: 100%!important;
+}
+body .gkCols6 .box.gkmod-more.gkmod-last-2:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-2:nth-last-child(2) {
+	width: 50%!important;
+}
+body .gkCols6 .box.gkmod-more.gkmod-last-3:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-3:nth-last-child(2),
+body .gkCols6 .box.gkmod-more.gkmod-last-3:nth-last-child(3) {
+	width: 33.3%!important;
+}
+body .gkCols6 .box.gkmod-more.gkmod-last-4:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-4:nth-last-child(2),
+body .gkCols6 .box.gkmod-more.gkmod-last-4:nth-last-child(3),
+body .gkCols6 .box.gkmod-more.gkmod-last-4:nth-last-child(4) {
+	width: 33.3%!important;
+}
+body .gkCols6 .box.gkmod-more.gkmod-last-5:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(2),
+body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(3),
+body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(4),
+body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(5) {
+	width: 33.3%!important;
+}
+
+body .gkCols6 .box.gkmod-2:nth-child(2n+1),
+body .gkCols6 .box.gkmod-3:nth-child(3n+1),
+body .gkCols6 .box.gkmod-4:nth-child(2n+1),
+body .gkCols6 .box.gkmod-5:nth-child(3n+1),
+body .gkCols6 .box.gkmod-6:nth-child(3n+1),
+body .gkCols6 .box.gkmod-more:nth-child(2n+1) {
+	clear: both;
+}
+
+/* Suffixes and other elements */
+
+.gkNspPM-ProductGallery2[data-cols="3"] > div,
+.gkNspPM-ProductGallery2[data-cols="4"] > div,
+.gkNspPM-ProductGallery2[data-cols="5"] > div,
+.gkNspPM-ProductGallery2[data-cols="6"] > div,
+.gkNspPM-ProductGallery2[data-cols="7"] > div,
+.gkNspPM-ProductGallery2[data-cols="8"] > div,
+.gkNspPM-ProductGallery2[data-cols="9"] > div,
+.gkNspPM-ProductGallery2[data-cols="10"] > div {
+	width: 48.5%!important;
+}
+
+.gkNspPM-CenteredTitleOverlay h3 {
+	font-size: 16px;
+}
+
+.gkNspPM-CenteredTitleOverlay p {
+	font-size: 11px;
+}
+
+.gkIsWrapper-gk_shop_and_buy .gkIsBtnNext,
+.gkIsWrapper-gk_shop_and_buy .gkIsBtnPrev {
+	display: none;
+}
+
+.gkIsWrapper-gk_shop_and_buy .figcaption p {
+	width: 75%;
+}
+
+/* Page elements */
+
